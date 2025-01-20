@@ -48,7 +48,7 @@ const BlogDetail = () => {
     const blog = blogDetails[numericId]
 
     return (
-        <div className="h-screen flex items-center">
+        <div className="h-screen flex lg:items-center lg:mt-0 mt-14">
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full px-4 mb-10 lg:w-1/2">
