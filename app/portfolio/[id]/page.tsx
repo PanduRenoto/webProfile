@@ -47,13 +47,13 @@ const PortfolioDetail = () => {
                 <div className="flex flex-wrap">
                     <div className="w-full px-4 mb-10 lg:w-1/2">
                         <h1 className="font-bold text-3xl mb-5 max-w-md lg:text-4xl">{portfolio.title}</h1>
-                        <p className="font-medium text-base text-abu max-w-xl lg:text-lg mb-28">{portfolio.description}</p>
+                        <p className="font-medium text-base text-abu max-w-xl lg:text-lg">{portfolio.description}</p>
                     </div>
                     <div className="w-full px-4 lg:w-1/2">
                         <Image src={portfolio.image!} alt={portfolio.title} className="w-full border-4 border-kuning rounded-md"/>
                     </div>
                 </div>
-                <a href="/#portfolio" className="font-medium text-lg text-white bg-kuning py-2 px-4 rounded-lg hover:opacity-80 w-fit">Kembali ke Halaman Utama</a>
+                <a href="/#portfolio" className="font-medium text-lg text-white bg-kuning py-2 px-4 rounded-lg hover:opacity-80 w-48 lg:w-fit text-center absolute bottom-10 left-1/2 transform -translate-x-1/2">Kembali ke Halaman Utama</a>
             </div>
         </div>
     )
