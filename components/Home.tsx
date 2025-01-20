@@ -18,7 +18,7 @@ const HomePage = () => {
                         <a href="https://wa.me/6282143408625" className="text-base font-semibold text-white bg-kuning py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out" target="_blank">Hubungi Saya</a>
                     </div>
                     <div className="w-full self-end px-4 lg:w-1/2">
-                        <div className="mt-10 relative lg:mt-9 lg:right-0">
+                        <div className="mt-16 relative lg:mt-9 lg:right-0">
                             <Image src={akupng} alt="aku" width={400} className="mx-auto z-50"/>
                             <span className="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
                                 <svg width={400} height={400} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
