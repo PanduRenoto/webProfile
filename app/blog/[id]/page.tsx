@@ -59,7 +59,7 @@ const BlogDetail = () => {
                         <Image src={blog.image!} alt={blog.title} className="w-full border-4 border-kuning rounded-md" />
                     </div>
                 </div>
-                <a href="/#blog" className="font-medium text-lg text-white bg-kuning py-2 px-4 rounded-lg hover:opacity-80 w-fit mt-14">Kembali ke Halaman Utama</a>
+                <a href="/#blog" className="font-medium text-lg text-white bg-kuning py-2 px-4 rounded-lg hover:opacity-80 w-48 text-center lg:w-fit absolute bottom-10 left-1/2 transform -translate-x-1/2">Kembali ke Halaman Utama</a>
             </div>
         </div>
     )
